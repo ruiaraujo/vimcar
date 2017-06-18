@@ -1,0 +1,18 @@
+.product-price-container {
+  padding: 16px 0;
+}
+
+.product-price {
+  color: #abcbf2;
+}
+
+.product-price.sale {
+  color: #ff7687;
+  font-weight: bold;
+}
+
+.product-old-price {
+  color: rgba(0, 0, 0, 0.38);
+  text-decoration: line-through;
+  margin-right: 8px;
+}

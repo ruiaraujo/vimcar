@@ -1,0 +1,33 @@
+.list-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  width: 180px;
+  margin: 16px 8px;
+  font-size: 11px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+}
+.list-item:last-child {
+  border: 0;
+  margin-bottom: 0;
+}
+.list-item-title-container {
+  display: flex;
+  width: 180px;
+}
+
+@media (min-width: 768px) {
+  .product {
+    font-size: 12px;
+  }
+}
+
+.list-image {
+  width: 40px;
+  margin-right: 16px;
+}
+.list-image > img {
+  width: 100%;
+}
